@@ -11,8 +11,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "compression": "^1.7.1",
     "cors": "^2.8.4",
     "express": "^4.16.2",
+    "helmet": "^3.9.0",
     "mitsuku-api": "git+https://github.com/Andrew-Garver/mitsuku-api.git",
     "mongodb": "^3.0.0-rc0"
   },
