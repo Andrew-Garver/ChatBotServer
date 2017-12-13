@@ -15,5 +15,5 @@ app.use(cors());
 require('./app/routes')(app, {});
 
 app.listen(process.env.port || port, () => {
-    console.log('We are live on ' + port);
+    console.log('We are live on ' + process.env.port || port);
 });
